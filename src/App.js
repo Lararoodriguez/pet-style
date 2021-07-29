@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar.js';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <strong>Bienvenidos a Pet Style !</strong>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="titulo">Pet Style</h1>
       </header>
+      <NavBar/>
+      <body>
+        <h2 className="titulo">Accesorios,Abrigos,Collares y Mucho más!</h2>
+      </body>
     </div>
   );
 }
