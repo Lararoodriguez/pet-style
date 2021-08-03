@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar.js';
+import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
@@ -11,9 +12,9 @@ function App() {
         <h1 className="titulo">Pet Style</h1>
       </header>
       <NavBar/>
-      <body>
-        <h2 className="titulo">Accesorios,Abrigos,Collares y Mucho más!</h2>
-      </body>
+      <main>
+        <ItemListContainer greeting="Bienvenidos a Pet Style :)"/>
+      </main>
     </div>
   );
 }

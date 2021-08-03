@@ -46,6 +46,14 @@
     text-shadow: 2px 2px gainsboro;
 }
 
+main{
+    margin-left: 4rem;
+    padding: 1rem;
+    color: aqua;
+    font-size: 35px;
+    font-style: bold;
+}
+
 .titulo   {
     font-style: italic;
     color: black;

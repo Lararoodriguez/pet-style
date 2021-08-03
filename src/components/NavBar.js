@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  carrito from './carrito.png';
+
 
 function NavBar() { 
   return ( 
@@ -9,6 +11,7 @@ function NavBar() {
         <p><a href="https://coderhouse.com">Ofertas</a></p>
         <p><a href="https://coderhouse.com">Contacto</a></p>
       </div>
+      <img src={carrito} className="carrito" alt="carrito" />
     </header>
   );
 }
