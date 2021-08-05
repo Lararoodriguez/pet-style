@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar.js';
 import ItemListContainer from './components/ItemListContainer';
+import ItemCount from './components/ItemCount';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <NavBar/>
       <main>
         <ItemListContainer greeting="Bienvenidos a Pet Style :)"/>
+        <ItemCount stock="5" initial="0"/>
       </main>
     </div>
   );
