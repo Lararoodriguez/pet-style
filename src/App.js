@@ -15,7 +15,7 @@ function App() {
       <NavBar/>
       <main>
         <ItemListContainer greeting="Bienvenidos a Pet Style :)"/>
-        <ItemCount stock="5" initial="0"/>
+        <ItemCount stock= {5} initial={0}/>
       </main>
     </div>
   );
