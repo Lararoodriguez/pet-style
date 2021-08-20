@@ -9,7 +9,7 @@ function NavBar() {
       <div className="header-category-sections col-md-4 col-sm-12">
         <p><a href="https://coderhouse.com">Productos</a></p>
         <p><a href="https://coderhouse.com">Ofertas</a></p>
-        <p><a href="https://coderhouse.com">Contacto</a></p>
+        <p><a href="https://coderhouse.com" path="/contact">Contacto</a></p>
       </div>
       <img src={carrito} className="carrito" alt="carrito" />
     </header>
