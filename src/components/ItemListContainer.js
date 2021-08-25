@@ -1,7 +1,7 @@
 import ItemList from "./ItemList";
 import { useEffect, useState } from "react";
 
-function ItemListContainer({greeting}){
+function ItemListContainer(){
     const [items, setItems] = useState();
     useEffect(() => {
         setTimeout( () => {
@@ -28,7 +28,6 @@ function ItemListContainer({greeting}){
 
     return(
         <div>
-            <p>{greeting}</p>
             <ItemList items={items} title={'Productos'}/>
         </div>
     );

@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react';
-import ItemCount from '../components/ItemCount';
 
 function ProductDetail(){
 
@@ -19,19 +18,6 @@ function ProductDetail(){
 
     }, []);
 
-    return(
-        <div className="page-details">
-         {item ?
-        <div className="product-detail">
-            <div className="product-detail-info">
-                <h2>{`${item.title}`}</h2>
-                <p>{`${item.description}`}</p>
-                <ItemCount stock={5} initial={0}/>
-            </div>
-        </div>
-        : <h3>Cargando</h3> }
-        </div>
-    );
 }
 
 export default ProductDetail;

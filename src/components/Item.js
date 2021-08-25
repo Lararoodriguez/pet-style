@@ -8,7 +8,6 @@ function Item({id, title, description, price, pictureUrl}){
                 <div className="item-price">{price} ARS</div>
                 <div className="item-id">#{id}</div>
             </div>
-
         </div>
     )
 }

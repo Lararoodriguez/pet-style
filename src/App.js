@@ -19,10 +19,10 @@ function App() {
       </header>
       <NavBar/>
       <main>
-        <ItemListContainer greeting="Bienvenidos a Pet Style :)"/>
+        <ItemListContainer/>
         <ItemCount stock= {5} initial={0}/>
         <Switch>
-            <Route exact path="/product">
+            <Route exact path="/product/:id">
               <ProductDetail/>
             </Route>
             <Route exact path="/contact">

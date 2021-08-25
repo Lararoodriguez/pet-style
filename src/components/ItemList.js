@@ -6,7 +6,7 @@ function ItemList({items, title}){
         <h2 className="item-list-title">{title}</h2>
         <div className="item-list">
         {
-        items ? items.map(item => <Item id={item.id} title={item.title} description={item.description} price={item.price} pictureUrl={item.pictureUrl} /> ) : <h3>Aguarde...</h3>
+        items ? items.map(item => <Item id={item.id} title={item.title} description={item.description} price={item.price} pictureUrl={item.pictureUrl} /> ) : <h3>Espere...</h3>
         }
       </div>  
     </div>
