@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import Button from './helpers/Button';
 import 'bootstrap/dist/css/bootstrap.css';
-import buzo from './buzopolar.png';
+
 
 
 function ItemCount({stock, initial}){
@@ -22,16 +22,12 @@ function ItemCount({stock, initial}){
     };
 
     return(
-        <div className="card">
-           <img src={buzo} className="buzoPolar" alt="buzo"/>
-           <div className="card-body">
-              <h5 className="card-title">Buzo Polar</h5>
-              <p className="count-display">
-              <Button action={() => validateStockAndMinus(count)} value={"-"}/>
-              <p>{count}</p>
-              <Button action={() => validateStockAndAdd(count,stockMinimo)} value={"+"}/></p>
-              <a href="#" class="btn">Añadir al Carrito</a>
-            </div>
+        <div>
+            <p className="count-display">
+            <Button className="resta" action={() => validateStockAndMinus(count)} value={"-"}/>
+            <p className="count">{count}</p>
+            <Button className="suma" action={() => validateStockAndAdd(count,stockMinimo)} value={"+"}/></p>
+            <a href="#" class="btn">Añadir al Carrito</a>
         </div>
     );
 }

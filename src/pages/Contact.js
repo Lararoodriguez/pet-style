@@ -1,6 +1,6 @@
 function Contact(){
     return(
-        <h1>Seguinos en nuestras redes sociales o Contactate a traves de Wpp</h1>
+        <h1>Aqui se veran números de contactos y redes sociales!</h1>
     );
 }
 
